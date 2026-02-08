@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-some@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-some/tags). For example,
+
+```javascript
 import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-some@v0.1.1-esm/index.mjs';
 ```
 
@@ -135,7 +140,7 @@ Each provided ndarray should be an object with the following properties:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
-import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-some@v0.1.1-esm/index.mjs';
+import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-some@esm/index.mjs';
 
 var x = {
     'dtype': 'generic',
